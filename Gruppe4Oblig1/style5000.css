@@ -1,1 +1,76 @@
-
+body {
+    margin: 0;
+    background-color: gainsboro;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+#navBar {
+    width: 450px;
+    margin: 20px auto;
+    padding: 10px 24px 35px;
+    border: 6px solid darkgoldenrod;
+    /*margin: 10px 40vw 40px 40vw;*/
+    /*padding: 15px 90px 30px;*/
+    text-align: center;
+    list-style: none;
+    color: azure;
+    background-color: midnightblue;
+}
+.navItem {
+    display: inline;
+    background-color: midnightblue;
+    margin: 0 20px;
+}
+.navItem a {
+    display: inline-block;
+    color: azure;
+}
+.textBlockLeft {
+    margin: 20px auto;
+    width: 600px;
+    background-color: midnightblue;
+    border: 6px solid darkgoldenrod;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0;
+}
+.textBlockRight {
+    margin: 20px auto;
+    width: 600px;
+    background-color: midnightblue;
+    border: 6px solid darkgoldenrod;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0;
+}
+.leftText {
+    display: inline-block;
+    color: azure;
+}
+.rightText {
+    display: inline-block;
+    color: azure;
+}
+.imgLeft {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    position: relative;
+    left: 7px;
+}
+.imgRight {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    position: relative;
+    left: 6px;
+}
+.genericText {
+    box-sizing: border-box;
+    width: 510px;
+    background-color: midnightblue;
+    color: azure;
+    margin: 20px auto;
+    padding: 10px 24px 30px;
+    border: 6px solid darkgoldenrod;
+}
